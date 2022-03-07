@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <link href="scripts/font.css" rel="stylesheet" type="text/css" />
+    <link href="scripts/css.css" rel="stylesheet" type="text/css" />
+    <title>Student Platform Web API</title>
+    <link rel="shortcut icon" type="image/jpg" href="/media/favicon.svg" />
+</head>
+
+<body id="body">
+
+    <div class="header">
+        <div class="panel">
+            <div class="login">
+                <div id="cartStatus"></div>
+                <img src="media/cart.svg" class="topPanelIcon">
+                <a href="#nojump" onclick="navigateCart()">
+                    <p1>Shopping Cart</p1>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div class="subHeader">
+        <div class="panel">
+            <div class="menuFlexContainer">
+                <div class="menuLeft">
+                    <img src="media/logo.svg" class="logo" />
+                </div>
+                <div class="menuRight">
+                    <p2><a href="#nojump" onclick="navigateNews()">
+              News
+            </a> · <a href="#nojump" onclick="navigateCataloge()">Course Cataloge</a> · About</p2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main3" id="mainCart">
+        <div class="panel">
+            <h1>Student Platform</h1>
+            <img src="media/arrow.svg" class="compassIcon">
+            <h1>Shopping Cart</h1>
+            <div class="cart" id="userCart">
+                <h5>Shopping Cart</h5>
+                <div class="userPanel" id="cartPanel">
+                    <p2>Cart is empty. Browse <i>course cataloge</i> for items.</p2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="main2" id="mainCataloge">
+        <div class="panel">
+            <h1>Student Platform</h1>
+            <img src="media/arrow.svg" class="compassIcon">
+            <h1>Course Cataloge</h1>
+            <div class="cataloge" id="courseCataloge"></div>
+        </div>
+    </div>
+
+    <div class="main" id="mainHome">
+        <div class="panel">
+            <div>
+                <h1>Student Platform</h1>
+                <img src="media/arrow.svg" class="compassIcon">
+                <h1>News</h1>
+            </div>
+            <div class="mainFlexContainer">
+                <div class="mainLeft">
+                    <h2>Grid Feed</h2>
+                    <h3>
+                        Student Achievements, School Activities, General Information, Etc.
+                    </h3>
+                    <div class="frontPage">
+                        <p2>Space for brief introduction to the platform and it's purpuse.
+                        </p2><br>
+                        <p2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In metus vulputate eu scelerisque. Massa enim nec dui nunc mattis enim ut tellus. Scelerisque fermentum
+                            dui faucibus in ornare. Quis viverra nibh cras pulvinar mattis nunc sed. Faucibus interdum posuere lorem ipsum. Cras ornare arcu dui vivamus arcu. Neque sodales ut etiam sit amet nisl purus in mollis. Curabitur gravida arcu
+                            ac tortor dignissim convallis. Faucibus pulvinar elementum integer enim neque volutpat ac tincidunt. Duis at consectetur lorem donec massa. Lorem mollis aliquam ut porttitor leo. Lorem donec massa sapien faucibus et molestie.</p2>
+                    </div>
+                </div>
+                <div class="mainRight">
+                    <h4>Featured Content</h4>
+                    <p2>Premium spot (x2) for changes to schedule, courses open for late admissions, etc.</p2>
+                    <div class="imagePlaceholder">
+                        <p6>Image</p6>
+                    </div>
+                    <div class="gridItem">
+                        <p2>Below these blocks (left, top and this one) proper gridding starts for more dynamic and frequently updated content. Gridded content is handled as less essential and could be just fun stuff. Or nothing.
+                        </p2><br>
+                        <p3>
+                            Id ornare arcu odio ut sem nulla pharetra diam. Sed ullamcorper morbi tincidunt ornare massa eget. Volutpat ac tincidunt vitae semper quis. Congue quisque egestas diam in. Nisl nunc mi ipsum faucibus vitae. Nulla facilisi nullam vehicula ipsum. Auctor
+                            eu augue ut lectus arcu bibendum. Morbi blandit cursus risus at ultrices mi.</p3><br>
+                        <p3 style="text-align: right"><i>Continue reading...</i></p3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="panel">
+            <div class="footerFlexContainer">
+                <div class="footerLeft">
+                    <p4>0046 31-000-00</p4>
+                    <p4>info@email.se</p4><br>
+                    <p4>Address, first row</p4>
+                    <p4>Address, second row</p4>
+                    <p4>Address, third row</p4>
+                </div>
+                <div class="footerRight">
+                    <p4>Publisher information, terms of service, certificates, policies, external links, etc.</p4>
+                </div>
+                <div>
+                    <p4>Local link #1</p4>
+                    <p4>Local link #2</p4>
+                    <p4>Local link #3</p4>
+                    <p4>Local link #4</p4>
+                    <p4>Local link #5</p4>
+                </div>
+            </div>
+            <div class="footerNoticePanel">
+                <p5>Course assignment mock-up for ITHS</p5><br>
+                <p4>Copyright &copy; Jonas Lind. All rights reserved.</p4>
+                <p4>prv.se/en/copyright/</p4>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/js.js"></script>
+</body>
+
+</html>
